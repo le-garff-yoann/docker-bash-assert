@@ -1,6 +1,6 @@
 FROM centos:7
 
-MAINTAINER Yoann Le Garff (le-garff-yoann) <pe.weeble@yahoo.fr>
+LABEL maintainer="pe.weeble@yahoo.fr"
 
 RUN \
     yum install -y git && \
